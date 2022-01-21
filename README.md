@@ -2,7 +2,11 @@ In this notebook I'm going to compare performances of [U-Net](https://arxiv.org/
 
 The dataset I used is from [Kaggle: Br35H::Brain Tumor Detection 2020](https://www.kaggle.com/ahmedhamada0/brain-tumor-detection) and can be found [here](https://drive.google.com/file/d/1RUFF3B_n5PcnitbUGULdPWciPPyCb_1i/view?usp=sharing) (credits to: [AryaKoureshi](https://github.com/AryaKoureshi) for masks extraction).
 
-The attention mechanism is the one describe in below figure:
+The architecture of the standard U-Net is the following:
+
+<img src="imgs/U-Net.jpg" style="zoom:75%;"/>
+
+The attention mechanism is the one described in below figure:
 
 ![](imgs/Attention.png)
 
