@@ -17,7 +17,16 @@ Results show that the use of this attention mechanism can slightly improve perfo
 | U-Net           | 97.95%     | 0.81       | 0.68      |
 | Attention U-Net | **98.04%** | **0.82**   | **0.70**  |
 
-Looking at the result we get from Attention U-Net on validation set is very promising considering that it has been trained for only 25 epochs:
+Looking at the results we get from Attention U-Net on validation set is very promising considering that it has been trained for only 25 epochs:
 
-![](imgs/Predictions.png)
+![](imgs/Preds_on_valid.png)
 
+Also looking at the results on some test samples we can see that the model predictions are good. In this case we don't know the correct mask but only if there is or not the tumor. We can see that when there is some kind of mass , the model correctly detect it.
+
+Yes:
+
+![](imgs/Pred_yes_test.png)
+
+No:
+
+![](imgs/Pred_no_test.png)
